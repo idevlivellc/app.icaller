@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+	font-family: "Jost", sans-serif;
+}
+
+section {
+	padding: 5% 0;
+}
+
+nav {
+	background-color: white;
+	box-shadow: none;
+}
+
+nav a.brand-logo {
+	color: #212121;
+}
+
+nav ul li a {
+	color: #424242;
+}
+
+.header-text {
+	font-family: 'Lora', serif;
+	font-weight: 500;
+}
+
+.flexbox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.login-wrapper {
+	max-width: 500px;
+	box-shadow: none;
+}
+
+.btn, .btn-large, .btn-flat {
+	box-shadow: none !important;
+	text-transform: none !important;
+	font-family: "Jost", sans-serif;
+}
+
+.btn-flat:hover {
+	background-color: #e0e0e0 !important;
+}
+
+.full-width {
+	width: 100%;
+}
+
+main {
+	padding-left: 350px;
+	padding-right: 50px;
+}
+
+.sidenav li > a > i, .sidenav li > a > [class^="mdi-"], .sidenav li > a li > a > [class*="mdi-"], .sidenav li > a > i.material-icons {
+	color: #212121;
+}
+
+.info-wrapper-small {
+	box-shadow: none !important;
+	background-color: white;
+	aspect-ratio: 1/0.8;
+	text-align: left;
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	/* padding: 0 */
+	/* display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; */
+}
+
+.info-wrapper-large {
+	box-shadow: none !important;
+	background-color: white;
+	text-align: left;
+	border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.info-wrapper-small table tbody tr:last-child, .info-wrapper-large table tbody tr:last-child {
+	border-bottom: none;
+}
+
+table.call-summary-table > thead > tr > th {
+	font-weight: 400;
+	font-size: 13px;
+	color: #616161;
+}
+
+.small-text {
+	font-size: 12px;
+}
+
+.small-modal {
+	width: 450px;
+}
+
+.dialer-modal {
+	width: 400px;
+}
+
+.dialpad {
+	display: flex;
+	flex-direction: column;
+}
+
+.dialpad > .rows {
+	display: flex;
+	justify-content: space-between;
+}
+
+.dialpad > .rows > a {
+	width: 32%;
+	font-size: 18px;
+	/* font-weight: 500; */
+	margin: 10px 0;
+}
+
+.user-thumbnail {
+	height: 100px;
+	width: 100px;
+	background-color: #fff;
+	font-size: 2rem;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #009688;
+	font-family: 'Lora', serif;
+	font-weight: 600;
+	pointer-events: none;
+}
+
+/* .user-view > a {
+	color: #212121;
+} */
+
+ul.sidenav {
+	background-color: #12344d;
+}
+
+ul.sidenav li a, ul.sidenav li a.subheader, ul.sidenav li a i {
+	color: #fff;
+}
+
+.medium {
+	font-weight: 500;
+}
+
+input[type='text'], input[type='email'], input[type='password'] {
+	font-family: 'Jost', sans-serif;
+}
+
+@media only screen and (max-width : 992px) {
+	main {
+		padding-left: 0;
+	}
+}
